@@ -91,20 +91,20 @@ for num in range(0 , num):
     print(num * num)
     
 print('--------------------------------')
-
-int = 1
-for int in range(0 ,100):
-    print(int+1 ,"+")
- 
-count = int(input("number :"))
-num = 1
- 
-while num <=10:
-    f = count * num
-    print(num , "X" ,count , " = ",f)
-    num = num+1
-    
-    
+# 
+# int = 1
+# for int in range(0 ,100):
+#     print(int+1 ,"+")
+#  
+# count = int(input("number :"))
+# num = 1
+#  
+# while num <=10:
+#     f = count * num
+#     print(num , "X" ,count , " = ",f)
+#     num = num+1
+#     
+#     
 print('--------------------------------')
 
 languages = ["python","java","swift","c#","C++"]
@@ -115,3 +115,18 @@ for var in languages :
     print(var)
 print('--------------------------------')    
 
+def sum(num1 , num2 ):
+    """
+    function to finde the sum
+    """
+    num = num1 + num2
+    return num
+    print(num1 ," + " ,num2 ," = ", num)
+    
+num1 = int(input("Enter the first num: "))
+num2 = int(input("Enter the secound num : "))
+
+num = sum(num1 , num2)
+
+print(num1 ," + " ,num2 ," = ", num)
+print(sum.__doc__)
