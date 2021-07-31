@@ -130,3 +130,26 @@ num = sum(num1 , num2)
 
 print(num1 ," + " ,num2 ," = ", num)
 print(sum.__doc__)
+
+print('--------------------------------')
+
+string = "computer"
+"""
+working with Slicing = [Start : end+1 : step ]
+
+"""
+print(string[2 : 6 : 2])
+
+# cheking membership
+string = "coumputer"
+print(string)
+print ("is C in String : ","c" in string)
+print ("is T in string : ","t" not in string)
+
+
+var = ["khan" , "Noori", "Tokhi"]
+for index , item in enumerate (var):
+    print(index , item )
+    
+#  finding the len
+print("the length of String is = " , len(string))
