@@ -1,5 +1,5 @@
-a = input()
-b = input()
+a = input("Enter the  first num :")
+b = input("Enter the second num")
 
 num1 = int(a)
 num2 =int(b)
@@ -7,13 +7,13 @@ num2 =int(b)
 c = num1 // num2
 d = num1 / num2
 
-print(int(c))
-print(d)
+print("the answer in int",int(c))
+print(" the answer in float ",d)
 
 print('--------------------------------')
 a = 30
 print('this is a number',a)
-# 
+
 set = {2,3,4,5}
 print(set , sep='#',end="@")
 
@@ -153,3 +153,52 @@ for index , item in enumerate (var):
     
 #  finding the len
 print("the length of String is = " , len(string))
+
+
+
+#finding the min
+print("the min is :", min(string))
+
+#finding the max
+print("the max is :", max(string))
+
+
+print('--------------------------------')
+
+list = [3,4,7,5,2,1,5,34,55,34]
+print(max(list))
+
+#counting
+
+string =  "ahdjfhiuebjdbauihaouejasdfhalo"
+print(string.count('a'))
+
+#finding index
+print(string.index('j'))
+
+
+
+vegetables = ['squash', 'pea', 'carrot', 'potato']
+
+new_list = sorted(vegetables)
+
+# new_list = ['carrot', 'pea', 'potato', 'squash']
+print(new_list)
+
+# vegetables = ['squash', 'pea', 'carrot', 'potato']
+print(vegetables)
+
+vegetables.sort()
+
+# vegetables = ['carrot', 'pea', 'potato', 'squash']
+print(vegetables)
+
+print('--------------------------------')
+
+#tuples
+
+tup = (3,4,5,6,7,8)
+lst = [3,4,5,5,6,6,7]
+
+print(list(tup))
+print(tuple(lst))
