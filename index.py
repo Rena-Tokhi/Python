@@ -202,3 +202,37 @@ lst = [3,4,5,5,6,6,7]
 
 print(list(tup))
 print(tuple(lst))
+
+
+print('--------------------------------')
+
+# sictionaries
+
+D ={'a' : 1 ,'b' : 2 , 'c' : 3}
+
+#delete an item
+del(D['a'])
+print(D)
+
+# delete all item
+D.clear()
+print(D)
+
+#delete dict
+del(D)
+
+#accessing
+D ={'a' : 1 ,'b' : 2 , 'c' : 3}
+print(D.keys())
+print(D.values())
+print(D.items())
+
+
+#membership
+
+print('a' in D)
+
+#iterating
+
+for key in D:
+    print(key , D[key])
