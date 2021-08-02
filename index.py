@@ -1,3 +1,8 @@
+import pkg_1.config
+
+# working withe modules
+pkg_1.config.get_config()
+
 a = input("Enter the  first num :")
 b = input("Enter the second num")
 
@@ -200,8 +205,8 @@ print('--------------------------------')
 tup = (3,4,5,6,7,8)
 lst = [3,4,5,5,6,6,7]
 
-print(list(tup))
-print(tuple(lst))
+# print(list(tup))
+# print(tuple(lst))
 
 
 print('--------------------------------')
@@ -269,3 +274,22 @@ grade =compute_grade(average_marks)
 print("Your average marks is", average_marks)
 print("Your grade is", grade)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# variables
+# config.name = 'rina'  cjcjcjcjccj
